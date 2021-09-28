@@ -18,8 +18,7 @@ http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the executi
 Get-ExecutionPolicy -List
 
 ## If the above commands work properly, you should see the following ##
-
-        Scope ExecutionPolicy       
+   
 MachinePolicy       Undefined
    UserPolicy       Undefined
       Process       Undefined
