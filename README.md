@@ -28,21 +28,21 @@ MachinePolicy       Undefined
  
  ## Once this is finished, create SendEmail.ps1 script as shown in tutorial, drop it inside Group Policy ##
  
- Right-Click Start
- Select Run
- Enter "gpedit.msc" (without the quotes)
-> Computer Configuration
-> Windows Settings
-> Scripts (Startup/Shutdown)
-> Startup
-> PowerShell Scripts
-> Add
-> Browse
-> Browse to your Desktop where you saved the file and find "SendEmail" and open it
-> OK
-> Click the dropdown box under "For this GPO, run scripts in the following order:"
-> Select "Run Windows PowerShell scripts first"
-> OK
+1. Right-Click Start
+2. Select Run
+3. Enter "gpedit.msc" (without the quotes)
+4. Computer Configuration
+5. Windows Settings
+6. Scripts (Startup/Shutdown)
+7. Startup
+8. PowerShell Scripts
+9. Add
+10. Browse
+11. Browse to your Desktop where you saved the file and find "SendEmail" and open it
+12. OK
+13. Click the dropdown box under "For this GPO, run scripts in the following order:"
+14. Select "Run Windows PowerShell scripts first"
+15. OK
 
 ## Let's Force this Policy to get applied, just in case ##
 Right-Click Start
