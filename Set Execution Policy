@@ -1,0 +1,3 @@
+## Open Powershell (NOT Powershell ISE) ##
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+Get-ExecutionPolicy -List
