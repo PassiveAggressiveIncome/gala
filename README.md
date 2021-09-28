@@ -1,7 +1,7 @@
 ## Set Execution Policy Instructions ##
-Click Start
-Type "Powershell" (without the quotes)
-Click "Powershell" (do NOT select "Powershell ISE")
+1. Click Start
+2. Type "Powershell" (without the quotes)
+3. Click "Powershell" (do NOT select "Powershell ISE")
 
 ## Enter Command ##
 Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
