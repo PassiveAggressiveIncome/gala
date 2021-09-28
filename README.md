@@ -45,23 +45,23 @@ MachinePolicy       Undefined
 15. OK
 
 ## Let's Force this Policy to get applied, just in case ##
-Right-Click Start
-Click "Command Prompt (Admin)
-Enter "gpupdate /force" (without the quotes)
+1. Right-Click Start
+2. Click "Command Prompt (Admin)
+3. Enter "gpupdate /force" (without the quotes)
 
 ## Let's change the Computer Name so the email shows you the proper name ##
-Right-click Start
-> System
+1. Right-click Start
+2. System
 ## Windows Server 2019 ##
-> Rename this PC
-> Enter Computer Name
-> Next
-> Choose to either "Restart Now" or "Restart Later"
+3. Rename this PC
+4. Enter Computer Name
+5. Next
+6. Choose to either "Restart Now" or "Restart Later"
 ## Windows Server 2016 ##
-> Change Settings
-> Change
-> Enter Computer name
-> Click OK
+3. Change Settings
+4. Change
+5. Enter Computer name
+6. Click OK
 
 Reboot your server manually. If all goes well, you should receive an email with your new Computer Name, stating that your server was rebooted!
 
